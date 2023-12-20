@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bridge_1125.AbstractSideLeft">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <AssociationLine Name="Right" Type="Bridge_1125.AbstractSideRight">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.67" Y="0.066" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAA=</HashCode>
+      <FileName>AbstractSideLeft.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Right" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bridge_1125.AbstractSideRight">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>AbstractSideRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge_1125.Client">
+    <Position X="1" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAABAAAAgAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge_1125.ConcreteSideLeft1">
+    <Position X="1.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ConcreteSideLeft1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge_1125.ConcreteSideLeft2">
+    <Position X="3.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ConcreteSideLeft2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge_1125.ConcreteSideRight1">
+    <Position X="6" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ConcreteSideRight1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge_1125.ConcreteSideRight2">
+    <Position X="8.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ConcreteSideRight2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>
